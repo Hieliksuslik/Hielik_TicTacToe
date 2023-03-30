@@ -46,7 +46,7 @@ namespace TictacToe
             return true;
         }
         // CheckWin returns true if there is a win condition.
-        // TODO: Re-think how to handle win/draw checks
+        
         public char CheckWin(int x, int y, char player)
         {
             int markerCount = 0;
